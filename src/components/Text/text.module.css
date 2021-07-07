@@ -1,0 +1,73 @@
+.text{
+    width: 100%;
+    margin-top: 136px;
+}
+
+.text h2{
+    color: white;
+    font-size: 64px;
+    font-style:normal;
+    padding: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 72px;
+
+}
+.rev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rev p{
+    text-align: center;
+    color: white;
+    font-style: normal;
+    line-height: 36px;
+    font-size: 22px;
+    font-family:serif;
+}
+.urano{
+    display: flex;
+    justify-content: center;
+    
+
+}
+ .urano img{
+     padding-top: 140px;
+    
+} 
+
+.rev button{
+    background-color: #2d60be;
+    height: 30px;
+    width: 160px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin:3rem;
+    font-weight: 200;
+    align-items:center;
+}
+@media (max-width:1031px){
+    .urano img{
+        padding-top: 70px;
+       
+   } 
+}
+@media (max-width:826px){
+    .urano img{
+        padding-top: 40px;
+       
+   } 
+}
+@media (max-width:600px){
+    .text h2, .text p{
+        color: #010918;    
+   } 
+   .urano{
+       display: none;
+   }
+}
